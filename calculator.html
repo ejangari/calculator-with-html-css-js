@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My version of Calculator on iOS</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="result">
+            <!--<input class="answer" value=""/>-->
+            <p class="resultados"></p>
+        </div>
+        <section class="papa">
+            <div class="firstLine">
+                <button class="clear" value="C">C</button>
+                <button class="arrow" value="&#8592;">&#8592;</button>
+                <button class="divide" value="&#247;">&#247;</button>
+            </div>
+            <!--<div class="secondLine">-->
+            <div class="lineNumeros">
+                <button class="numero" value="7">7</button>
+                <button class="numero" value="8">8</button>
+                <button class="numero" value="9">9</button>
+                <button class="operation" value="x">x</button>
+            </div>
+            <!--<div class="thirdLine">-->
+                <div class="lineNumeros">
+                <button class="numero" value="4">4</button>
+                <button class="numero" value="5">5</button>
+                <button class="numero" value="6">6</button>
+                <button class="operation" value="-">-</button>
+                
+            </div>
+            <!--<div class="fourthLine">-->
+                <div class="lineNumeros">
+                <button class="numero" value="1">1</button>
+                <button class="numero" value="2">2</button>
+                <button class="numero" value="3">3</button>
+                <button class="operation" value="+">+</button>
+            </div>
+            <!--<div class="fifthLine">-->
+                <div class="fifthLine">
+                <button class="zero" value="0">0</button>
+                <button class="equal" value="=">=</button>
+            </div>
+        </section>
+        <input type="text" class="calculo" value="0"/>
+        <input type="hidden" class="operation" value=""/>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
